@@ -15,13 +15,16 @@ h1 {
 section {
     /* display: flex; */
 
-    height: 500px;
+    /* height: 500px; */
 }
 
 .first-bg {
     background-image: url(img/top-banner.png);
     background-repeat: no-repeat;
+    height: 500px;
+    padding-bottom: 150px;
 }
+
 
 .half-width {
     width: 40%;
@@ -45,8 +48,11 @@ section {
 .dream-containt {
     background-image: url(img/dream-bg.png);
     background-repeat: no-repeat;
-    background-position: right bottom;
+    background-position: right;
+    height: 500px;
+    padding-bottom: 150px;
 }
+
 
 .dream {
     width: 40%;
@@ -70,4 +76,55 @@ section {
     background-image: linear-gradient(orange, tomato);
     border-radius: 5px;
     font-weight: bold;
+}
+
+.experience-area {
+    background-image: url(img/exp-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.full-box {
+    padding-top: 28px;
+    padding-bottom: 150px;
+    overflow: hidden;
+}
+
+.box {
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    box-shadow: 10px 10px 40px gray;
+    padding-left: 20px;
+    border-radius: 5px;
+    height: 80%;
+
+}
+
+.experience-text h2 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.box h2 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#boxTow {
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, tomato);
+    border-image-slice: 1;
+
+}
+
+#boxOne {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+
+}
+
+footer {
+    text-align: center;
 }
