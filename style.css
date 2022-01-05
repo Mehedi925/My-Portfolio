@@ -1,7 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
-
 }
 
 .nameColor {
@@ -15,9 +14,13 @@ h1 {
 
 section {
     /* display: flex; */
+
+    height: 500px;
+}
+
+.first-bg {
     background-image: url(img/top-banner.png);
     background-repeat: no-repeat;
-    height: 500px;
 }
 
 .half-width {
@@ -32,9 +35,39 @@ section {
     padding: 10px 40px;
     background-image: linear-gradient(orange, tomato);
     border-radius: 5px;
+    font-weight: bold;
 }
 
 .half-width img {
     width: 100%;
+}
 
+.dream-containt {
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.dream {
+    width: 40%;
+    float: left;
+    margin-left: 7%;
+}
+
+.dream img {
+    width: 100%;
+}
+
+.dream h2 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.dream a {
+    text-decoration: none;
+    padding: 10px 40px;
+    color: white;
+    background-image: linear-gradient(orange, tomato);
+    border-radius: 5px;
+    font-weight: bold;
 }
